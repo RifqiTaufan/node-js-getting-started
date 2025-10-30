@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/node-js-getting-started.git'
+                git 'https://github.com/RifqiTaufan/node-js-getting-started'
             }
         }
 
